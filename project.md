@@ -10,7 +10,7 @@
 
 - Here I will be deploying the application on the same node where jenkins is running so here are few things make sure are installed on your server.
 
-1. Node and Npm2. 
+1. Node and Npm2.
 
 2. Docker & docker-compose
 
@@ -31,7 +31,7 @@
 ## Step 5: Go to your repository setting add webhook to trigger jenkins.
 
 - It should appear like this once webhook is added.
-![](../Nodejs-hello-world/images/succesful.PNG)
+  ![](../Nodejs-hello-world/images/succesful.PNG)
 
 ## Step 6: Go to Jenkins > create a new Freestyle Project and configure the job.
 
@@ -42,7 +42,7 @@
 - Select git in source code management, add github url and add main in branches to build.
 
 - Select GitHub hook trigger for GITScm polling under build trigger.
-![](../Nodejs-hello-world/images/build.PNG)
+  ![](../Nodejs-hello-world/images/build.PNG)
 
 - Select execute shell in build steps and docker-compose commands.
 
@@ -52,4 +52,5 @@
 ![](../Nodejs-hello-world/images/final.PNG)
 
 ## Conclusion:
+
 Congratulations 🎉, you have successfully created jenkins CICD pipeline to deploy your nodejs application which will be triggered via webhook when any developer pushes new code in github repository.
