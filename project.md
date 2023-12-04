@@ -20,35 +20,35 @@
 
 `sudo usermod -a -G docker jenkins`
 
-`![Alt text](../Nodejs-hello-world/images/allow.PNG)`
+`![Alt text](./images/allow.PNG)`
 
 ## Step 4: Next install github-integration plugin in jenkins.
 
 - Go to Manage Jenkins > Plugins > Available Plugins. Search for github integration and click on install without restart. Once done check whether it is enabled or not by navigating into installed plugins.
 
-![](../Nodejs-hello-world/images/github-inte.PNG)
+![](./images/github-inte.PNG)
 
 ## Step 5: Go to your repository setting add webhook to trigger jenkins.
 
 - It should appear like this once webhook is added.
-  ![](../Nodejs-hello-world/images/succesful.PNG)
+  ![](./images/succesful.PNG)
 
 ## Step 6: Go to Jenkins > create a new Freestyle Project and configure the job.
 
 - Under General check the github project and add the github url
 
-![](../Nodejs-hello-world/images/github-url.PNG)
+![](./images/github-url.PNG)
 
 - Select git in source code management, add github url and add main in branches to build.
 
 - Select GitHub hook trigger for GITScm polling under build trigger.
-  ![](../Nodejs-hello-world/images/build.PNG)
+  ![](./images/build.PNG)
 
 - Select execute shell in build steps and docker-compose commands.
 
 - Step 7: Click on apply and save. As everything is done now make changes in repository and it will automatically trigger your jenkins job.
 
-![](../Nodejs-hello-world/images/final.PNG)
+![](./images/final.PNG)
 ![](./images/pipeline.PNG)
 
 ## Conclusion:
