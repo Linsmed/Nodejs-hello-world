@@ -20,7 +20,7 @@
 
 `sudo usermod -a -G docker jenkins`
 
-`![Alt text](./images/allow.PNG)`
+![Alt text](./images/allow.PNG)
 
 ## Step 4: Next install github-integration plugin in jenkins.
 
