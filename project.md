@@ -48,3 +48,5 @@
 
 - Step 7: Click on apply and save. As everything is done now make changes in repository and it will automatically trigger your jenkins job.
 
+![](../Nodejs-hello-world/images/final.PNG)
+![](../Nodejs-hello-world/images/final.PNG)
