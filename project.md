@@ -50,3 +50,6 @@
 
 ![](../Nodejs-hello-world/images/final.PNG)
 ![](../Nodejs-hello-world/images/final.PNG)
+
+## Conclusion:
+Congratulations 🎉, you have successfully created jenkins CICD pipeline to deploy your nodejs application which will be triggered via webhook when any developer pushes new code in github repository.
